@@ -4,7 +4,7 @@ function init() {
     var input = document.getElementById('entryinput').value;
     var output = document.getElementById('textoutput');
     alert("Nadia Ahmed: " + input.value);
-    textoutput.innerHTML = input;
+    output.innerHTML = input;
   }
   var button = document.getElementById('entrybutton');
   button.addEventListener('click', alertFunction);
