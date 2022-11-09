@@ -1,13 +1,13 @@
 function init() {
   //add your javascript between these two lines of code
-  function Functionalert() {
+  function alertFunction() {
     var input = document.getElementById('entryinput').value;
     var output = document.getElementById('textoutput');
     alert("Nadia Ahmed: " + input.value);
     textoutput.innerHTML = input;
   }
   var button = document.getElementById('entrybutton');
-  button.addEventListener('click', Functionalert);
+  button.addEventListener('click', alertFunction);
 
 }
 window.addEventListener('load', init)
