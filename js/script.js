@@ -7,7 +7,7 @@ function init() {
     textoutput.innerHTML = input;
   }
   var button = document.getElementById('entrybutton');
-  button.addEventListener('click', Functionalert)
+  button.addEventListener('click', Functionalert);
 
 }
 window.addEventListener('load', init)
